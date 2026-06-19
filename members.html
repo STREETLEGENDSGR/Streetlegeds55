@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Εγγραφή Μέλους | Street Legends GR</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<section class="register-container">
+
+<h1>Εγγραφή Μέλους</h1>
+
+<form id="memberForm">
+
+<input type="text"
+placeholder="Ονοματεπώνυμο"
+required>
+
+<input type="email"
+placeholder="Email"
+required>
+
+<input type="text"
+placeholder="Αυτοκίνητο"
+required>
+
+<input type="file"
+accept="image/*"
+required>
+
+<textarea
+placeholder="Λίγα λόγια για το αυτοκίνητο">
+</textarea>
+
+<button type="submit">
+ΥΠΟΒΟΛΗ
+</button>
+
+</form>
+
+<div id="success"></div>
+
+</section>
+
+<script>
+document
+.getElementById("memberForm")
+.addEventListener("submit",function(e){
+
+e.preventDefault();
+
+document.getElementById("success").innerHTML =
+"✅ Η αίτησή σας καταχωρήθηκε.";
+
+});
+</script>
+
+</body>
+</html>
