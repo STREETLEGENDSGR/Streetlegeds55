@@ -229,3 +229,49 @@ justify-content:center;
 }
 
 }
+
+.register-container{
+max-width:700px;
+margin:150px auto;
+padding:40px;
+background:#111;
+border:1px solid #FFD700;
+border-radius:20px;
+}
+
+.register-container h1{
+text-align:center;
+color:#FFD700;
+margin-bottom:30px;
+}
+
+.register-container form{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.register-container input,
+.register-container textarea{
+padding:15px;
+background:#1a1a1a;
+border:1px solid #333;
+color:white;
+border-radius:10px;
+}
+
+.register-container button{
+padding:15px;
+background:#FFD700;
+border:none;
+font-weight:bold;
+cursor:pointer;
+border-radius:10px;
+}
+
+#success{
+margin-top:20px;
+text-align:center;
+color:#00ff66;
+font-weight:bold;
+}
