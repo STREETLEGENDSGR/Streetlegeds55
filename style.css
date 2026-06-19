@@ -69,7 +69,7 @@ color:black;
 
 .hero{
 height:100vh;
-background:url('assets/hero-r35.jpg') center center/cover;
+background:url('assets/hero.jpg') center center/cover;
 display:flex;
 align-items:center;
 justify-content:center;
