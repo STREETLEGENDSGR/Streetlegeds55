@@ -26,7 +26,7 @@ z-index:1000;
 border-bottom:1px solid rgba(255,215,0,.2);
 }
 
-.logo{
+.poster{
 font-size:28px;
 font-weight:700;
 color:#FFD700;
@@ -68,13 +68,17 @@ color:black;
 }
 
 .hero{
-height:100vh;
-background:url('assets/hero.jpg') center center/cover;
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-position:relative;
+    background:
+        linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+        url("hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 .overlay{
