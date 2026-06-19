@@ -1,0 +1,231 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Orbitron',sans-serif;
+}
+
+body{
+background:#0b0b0b;
+color:white;
+overflow-x:hidden;
+}
+
+header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+padding:20px 60px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(0,0,0,.7);
+backdrop-filter:blur(10px);
+z-index:1000;
+border-bottom:1px solid rgba(255,215,0,.2);
+}
+
+.logo{
+font-size:28px;
+font-weight:700;
+color:#FFD700;
+text-shadow:0 0 20px #FFD700;
+}
+
+nav{
+display:flex;
+gap:25px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+font-size:15px;
+transition:.3s;
+}
+
+nav a:hover{
+color:#FFD700;
+}
+
+.auth{
+display:flex;
+gap:10px;
+}
+
+.auth button{
+padding:10px 18px;
+border:none;
+cursor:pointer;
+border-radius:8px;
+font-weight:600;
+}
+
+.auth .gold{
+background:#FFD700;
+color:black;
+}
+
+.hero{
+height:100vh;
+background:url('assets/hero-r35.jpg') center center/cover;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+position:relative;
+}
+
+.overlay{
+position:absolute;
+width:100%;
+height:100%;
+background:rgba(0,0,0,.55);
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+
+.hero h1{
+font-size:70px;
+color:#FFD700;
+text-shadow:0 0 35px #FFD700;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+max-width:700px;
+margin-bottom:35px;
+}
+
+.cta{
+padding:18px 40px;
+background:#FFD700;
+color:black;
+font-weight:bold;
+text-decoration:none;
+border-radius:10px;
+transition:.3s;
+}
+
+.cta:hover{
+transform:scale(1.08);
+box-shadow:0 0 30px #FFD700;
+}
+
+.event-box{
+width:90%;
+max-width:900px;
+margin:80px auto;
+padding:40px;
+background:#141414;
+border:1px solid #FFD700;
+border-radius:20px;
+text-align:center;
+box-shadow:0 0 20px rgba(255,215,0,.15);
+}
+
+.event-box h2{
+color:#FFD700;
+margin-bottom:20px;
+font-size:32px;
+}
+
+.event-box p{
+margin:10px 0;
+font-size:18px;
+}
+
+.featured{
+padding:80px 50px;
+}
+
+.featured h2{
+text-align:center;
+font-size:42px;
+margin-bottom:50px;
+color:#FFD700;
+}
+
+.cars{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+}
+
+.card{
+background:#111;
+border-radius:20px;
+overflow:hidden;
+transition:.4s;
+border:1px solid rgba(255,215,0,.2);
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 30px rgba(255,215,0,.35);
+}
+
+.card img{
+width:100%;
+height:250px;
+object-fit:cover;
+}
+
+.card h3{
+padding:20px;
+text-align:center;
+color:#FFD700;
+}
+
+footer{
+margin-top:80px;
+padding:30px;
+text-align:center;
+background:#000;
+border-top:1px solid rgba(255,215,0,.2);
+}
+
+footer p{
+color:#888;
+}
+
+::-webkit-scrollbar{
+width:8px;
+}
+
+::-webkit-scrollbar-track{
+background:#0b0b0b;
+}
+
+::-webkit-scrollbar-thumb{
+background:#FFD700;
+border-radius:10px;
+}
+
+@media(max-width:768px){
+
+header{
+padding:15px 20px;
+flex-direction:column;
+gap:15px;
+}
+
+.hero h1{
+font-size:40px;
+}
+
+.hero p{
+font-size:16px;
+padding:0 20px;
+}
+
+nav{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+}
