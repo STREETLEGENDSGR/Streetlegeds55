@@ -1,0 +1,18 @@
+street-legends-gr/
+│
+├── index.html
+├── style.css
+├── script.js
+│
+├── assets/
+│   ├── logo.png
+│   ├── hero-r35.jpg
+│   ├── gallery1.jpg
+│   ├── gallery2.jpg
+│   └── gallery3.jpg
+│
+└── pages/
+    ├── events.html
+    ├── gallery.html
+    ├── members.html
+    └── shop.html
