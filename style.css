@@ -67,7 +67,7 @@ background:#FFD700;
 color:black;
 }
 
-.hero1{
+.hero{
     background:
         linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
         url("hero1.png");
@@ -92,14 +92,14 @@ justify-content:center;
 align-items:center;
 }
 
-.hero1 h1{
+.hero h1{
 font-size:70px;
 color:#FFD700;
 text-shadow:0 0 35px #FFD700;
 margin-bottom:20px;
 }
 
-.hero1 p{
+.hero p{
 font-size:20px;
 max-width:700px;
 margin-bottom:35px;
